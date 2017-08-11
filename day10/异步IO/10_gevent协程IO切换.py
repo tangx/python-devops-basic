@@ -17,7 +17,7 @@ import gevent
 
 def foo():
     print("\033[31min foo header \033[0m")
-    gevent.sleep(2)
+    gevent.sleep(2)     # 使用 gevent 模拟 IO 操作
     print("\033[31min foo footer \033[0m")
 
 
